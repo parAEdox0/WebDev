@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(21, 27, 28);
+    /* background-color: #0f5679; */
+}
+header h1{ 
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+nav{
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+a:hover{
+    color: tomato;
+}
+img{
+    padding: auto;
+    width: 33%;
+}
