@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.default {
+    background-image: url(../Images/Netflix/bg.jpg);
+    background-attachment: scroll;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+.default .nav {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 92px;
+}
+
+#logo {
+    width: 185px;
+    height: 80px;
+    margin-right: 800px;
+    margin-left: 350px;
+}
+
+.nav .dropdown {
+    width: 126px;
+    height: 32px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.dropdown select {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown select option {
+    color: black;
+    font-size: 15px;
+}
+
+#signin {
+    color: white;
+    border-radius: 4px;
+    background-color: red;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    height: 32px;
+    width: 78px;
+}
+
+.info_body {
+    width: 100%;
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.info_body h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#one {
+    margin-bottom: 0;
+}
+
+#two {
+    margin-top: 0;
+}
+
+#line_one {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#line_two {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#email {
+    padding-left: 15px;
+    height: 56px;
+    width: 375px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: rgba(27, 27, 27, 0.712);
+    font-weight: 500;
+    font-size: 17px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255)
+}
+
+#email::placeholder {
+    color: rgb(189, 186, 186);
+}
+
+#getstarted {
+    font-weight: 600;
+    font-size: 22px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 212px;
+    height: 56px;
+}
+.one {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+    border-top: 8px solid rgb(44, 44, 44);
+    border-bottom: 8px solid rgb(44, 44, 44);
+}
+
+.one_text {
+    margin-left: 350px;
+}
+
+#one_heading {
+    font-size: 55px;
+    font-weight: 900x;
+}
+
+#one_text {
+    font-size: 25px;
+}
+
+#one_img {
+    height: 550px;
+    width: 400;
+    margin-right: 200px
+}
+
+.two {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+    border-bottom: 8px solid rgb(44, 44, 44);
+}
+
+#two_heading {
+    font-size: 55px;
+    font-weight: 900x;
+}
+
+#two_text {
+    font-size: 25px;
+}
+
+#two_img {
+    height: 550px;
+    width: 400;
+    margin-left:450px;
+    margin-right: 50px;
+}
+
+.two_text {
+    margin-right: 200px;
+}
+
+.three {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+    border-bottom: 8px solid rgb(44, 44, 44);
+}
+
+.three_text {
+    margin-left: 350px;
+}
+
+#three_heading {
+    font-size: 55px;
+    font-weight: 900x;
+}
+
+#three_text {
+    font-size: 25px;
+}
+
+#three_img {
+    height: 550px;
+    width: 400;
+    margin-right: 200px
+}
