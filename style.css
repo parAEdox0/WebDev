@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    height: 90%;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 37px;
+}
+
+.stories {
+    height: 15%;
+    border-bottom: 1px solid rgb(83, 83, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.story {
+    margin-top: 8px;
+    height: 100%;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.storySelf {
+    margin-left: 10px;
+}
+
+.storyRing {
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4,#C13584, #E1306C, #FD1D1D, #F56040, #F77737, #F77737,#FFDC80);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storyText {
+    font-size: 0.7rem;
+}
+
+.storyImage {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#storyImage {
+    object-position: 0 0.1px;
+    padding: 1.5px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
